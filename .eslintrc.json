@@ -1,3 +1,8 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-console": "off",       // 禁用 `console` 相关的检查
+    "no-unused-vars": "warn",  // 允许未使用的变量，但显示警告
+    "react/prop-types": "off"  // 禁用 PropTypes 检查（针对 React 项目）
+  }
 }
