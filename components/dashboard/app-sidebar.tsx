@@ -62,10 +62,10 @@ const data = {
           title: "聊天",
           url: "/dashboard/chat",
         },
-        {
-          title: "审核",
-          url: "#",
-        },
+        // {
+        //   title: "审核",
+        //   url: "#",
+        // },
         {
           title: "批量导入账号",
           url: "/dashboard/subAccount",

@@ -311,7 +311,7 @@ function TableDemo() {
         </DialogTrigger>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>添加子账号</DialogTitle>
+            <DialogTitle>添加子账号（暂时只有手动单个子账号添加，之后会更新批量添加）</DialogTitle>
             <DialogDescription>子账号自动继承您的管理员id</DialogDescription>
           </DialogHeader>
           <div className="grid gap-4 py-4">
@@ -705,8 +705,8 @@ function TableDemo() {
         </TableBody>
         <TableFooter>
           <TableRow>
-            <TableCell colSpan={3}>Total</TableCell>
-            <TableCell className="text-right">$2,500.00</TableCell>
+            <TableCell >暂时只有手动单个子账号添加，之后会更新批量添加</TableCell>
+
           </TableRow>
         </TableFooter>
       </Table>
